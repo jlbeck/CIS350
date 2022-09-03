@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Prototype 1
+ * Moves player with input
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

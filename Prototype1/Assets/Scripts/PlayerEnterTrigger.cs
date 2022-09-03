@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Prototype 1
+ * Adds to score when entering trigger, unused
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Prototype 1
+ * Attaches camera to player
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
