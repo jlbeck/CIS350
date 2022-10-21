@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundMask;
     public bool isGrounded;
 
+    public float jumpHeight = 3f;
+
     private void Awake()
     {
         gravity *= gravityMultiplier;
@@ -29,6 +31,13 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * speed * Time.deltaTime);
 
+
+        //add jump height
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
         //add gravity to velocity
         velocity.y += gravity * Time.deltaTime;
         //we multiply gravity by Time.deltaTime again to simulate gravity accelerating in a free fall
@@ -41,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
         {
             velocity.y = -2f;
         }
+
 
     }
 }
