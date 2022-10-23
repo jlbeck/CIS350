@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 5B
+ * Controls shooting and determines whether a target was successfully hit
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

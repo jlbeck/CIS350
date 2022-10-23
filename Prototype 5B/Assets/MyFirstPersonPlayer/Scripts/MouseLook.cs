@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 5B
+ * Controls camera motion with mouse movement
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

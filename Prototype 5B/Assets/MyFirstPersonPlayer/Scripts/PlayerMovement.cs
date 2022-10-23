@@ -1,6 +1,13 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 5B
+ * Controls player movement
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -17,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
 
     public float jumpHeight = 3f;
+
+    public Text winText;
 
     private void Awake()
     {
@@ -53,4 +62,13 @@ public class PlayerMovement : MonoBehaviour
 
 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            winText.text = "You win! Nice job!";
+        }
+    }
+
 }
