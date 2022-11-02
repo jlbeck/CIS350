@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 6
+ * Generic class for enemies establishing speed, health, and attack patterns, which uses a weapon
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

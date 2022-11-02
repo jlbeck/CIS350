@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 6
+ * Sends messages to Debug.Log when an enemy eats a weapon or the weapon recharges
+ */
+
+using System.Collections;
 using UnityEngine;
 
 

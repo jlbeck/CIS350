@@ -8,13 +8,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Target : MonoBehaviour
+public class Target : MonoBehaviour, IDamageable
 {
-    public float health = 50f;
+    public int health = 50;
 
-    public void TakeDamage(float amount)
-    {
-
+    public void TakeDamage(int amount)
+    { 
         health -= amount;
 
         if (health <= 0)

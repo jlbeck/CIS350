@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 6
+ * A single item for use in an inventory system
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

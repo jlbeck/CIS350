@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 6
+ * Generic singleton template
+ */
+
+using System.Collections;
 using UnityEngine;
 
 

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 6
+ * A subclass of enemies with modified health stats
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

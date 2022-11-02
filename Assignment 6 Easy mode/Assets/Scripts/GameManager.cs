@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Josh Beck
+ * Assignment 6
+ * Implements a game manager object as a singleton, allowing for changing scenes and pause function
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -62,14 +68,12 @@ public class GameManager : Singleton<GameManager>
     {
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
-        Cursor.lockState = CursorLockMode.None;
     }
 
     public void Unpause()
     {
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
